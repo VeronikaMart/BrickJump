@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace StackJump.Values
+namespace BrickJump.Values
 {
     [CreateAssetMenu(fileName = "IntVariable", menuName = "Scriptable Objects/Int Variable")]
     public class IntVariable : ScriptableObject, IValue<int>

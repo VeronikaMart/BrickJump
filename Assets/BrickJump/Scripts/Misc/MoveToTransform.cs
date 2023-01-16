@@ -1,7 +1,7 @@
-using StackJump.Values;
+using BrickJump.Values;
 using UnityEngine;
 
-namespace StackJump.Misc
+namespace BrickJump.Misc
 {
     public class MoveToTransform : MonoBehaviour
     {

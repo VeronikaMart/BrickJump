@@ -1,7 +1,7 @@
-using StackJump.Values;
+using BrickJump.Values;
 using UnityEngine;
 
-namespace StackJump.Player
+namespace BrickJump.Player
 {
     public class PlayerScoreCalculator : MonoBehaviour
     {
@@ -9,7 +9,6 @@ namespace StackJump.Player
 
         private void Update()
         {
-            // If gamePlaying
             CalculateCurrentScore(currentScore);
         }
 

@@ -1,8 +1,8 @@
-using StackJump.Values;
+using BrickJump.Values;
 using TMPro;
 using UnityEngine;
 
-namespace StackJump.Player
+namespace BrickJump.Player
 {
     public class PlayerHUD : MonoBehaviour
     {

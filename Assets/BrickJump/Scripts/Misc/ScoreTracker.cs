@@ -1,8 +1,8 @@
-using StackJump.Observer;
-using StackJump.Values;
+using BrickJump.Observer;
+using BrickJump.Values;
 using UnityEngine;
 
-namespace StackJump.Misc
+namespace BrickJump.Misc
 {
     public class ScoreTracker : MonoBehaviour
     {

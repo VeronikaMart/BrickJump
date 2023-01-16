@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace StackJump.Brick
+namespace BrickJump.Brick
 {
     // Provides generic factory for generating objects
     public class GenericFactory<T> : MonoBehaviour where T : MonoBehaviour

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace StackJump.Brick
+namespace BrickJump.Brick
 {
     public class BrickTag : MonoBehaviour { }
 }

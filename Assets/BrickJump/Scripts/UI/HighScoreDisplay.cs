@@ -1,8 +1,8 @@
-using StackJump.Values;
+using BrickJump.Values;
 using TMPro;
 using UnityEngine;
 
-namespace StackJump.UI
+namespace BrickJump.UI
 {
     public class HighScoreDisplay : MonoBehaviour
     {

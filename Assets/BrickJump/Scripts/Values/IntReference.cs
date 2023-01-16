@@ -1,6 +1,6 @@
 using System;
 
-namespace StackJump.Values
+namespace BrickJump.Values
 {
     [Serializable]
     public class IntReference

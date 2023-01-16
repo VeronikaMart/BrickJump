@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace StackJump.Observer
+namespace BrickJump.Observer
 {
     [CreateAssetMenu(fileName = "GameEvent", menuName = "Scriptable Objects/Game Event")]
     public class GameEvent : ScriptableObject

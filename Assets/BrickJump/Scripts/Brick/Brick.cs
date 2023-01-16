@@ -1,8 +1,8 @@
-using StackJump.Observer;
-using StackJump.Values;
+using BrickJump.Observer;
+using BrickJump.Values;
 using UnityEngine;
 
-namespace StackJump.Brick
+namespace BrickJump.Brick
 {
     public class Brick : MonoBehaviour
     {
@@ -45,14 +45,14 @@ namespace StackJump.Brick
 
         private void OnCollisionEnter2D(Collision2D collision)
         {
-            if (collision.gameObject.layer == 8) // character layer
+            if (collision.gameObject.layer == 8) // Player layer
             {
                 stopBrick = true;
                 CheckBonus();
             }
         }
 
-        public void CheckBonus() // Move to another script
+        public void CheckBonus() // TODO: Move to another script, Edit
         {
             RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, .6f);
 

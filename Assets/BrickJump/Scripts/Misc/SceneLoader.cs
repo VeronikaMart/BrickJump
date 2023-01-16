@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace StackJump.Misc
+namespace BrickJump.Misc
 {
     public class SceneLoader : MonoBehaviour
     {

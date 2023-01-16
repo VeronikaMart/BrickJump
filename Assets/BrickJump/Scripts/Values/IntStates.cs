@@ -1,4 +1,4 @@
-namespace StackJump.Values
+namespace BrickJump.Values
 {
     public enum IntStates
     {

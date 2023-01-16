@@ -1,9 +1,9 @@
-using StackJump.Values;
+using BrickJump.Values;
 using System.Collections;
 using TMPro;
 using UnityEngine;
 
-namespace StackJump.UI
+namespace BrickJump.UI
 {
     public class DisplayBonus : MonoBehaviour
     {
@@ -35,10 +35,5 @@ namespace StackJump.UI
             yield return new WaitForSeconds(displayTimer);
             bonuces[1].gameObject.SetActive(false);
         }
-
-        //private void State(bool state)
-        //{
-        //    bonuces[0].gameObject.SetActive(state);
-        //}
     }
 }

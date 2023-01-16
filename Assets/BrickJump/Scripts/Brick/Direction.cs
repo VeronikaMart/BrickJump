@@ -1,4 +1,4 @@
-namespace StackJump.Brick
+namespace BrickJump.Brick
 {
     enum Direction
     {

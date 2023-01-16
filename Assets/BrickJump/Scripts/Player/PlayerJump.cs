@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace StackJump.Player
+namespace BrickJump.Player
 {
     public class PlayerJump : MonoBehaviour, PlayerControls.IPlayerActions
     {
@@ -15,6 +15,7 @@ namespace StackJump.Player
         private Rigidbody2D rb;
         private PlayerControls controls;
         private AudioSource audioSource;
+        private bool canTound;
 
         private bool CheckForLanding()
         {
@@ -46,7 +47,6 @@ namespace StackJump.Player
             CheckForLanding();
         }
 
-        private bool canTound;
         public void OnJump(InputAction.CallbackContext context)
         {
             if (context.performed && CheckForLanding() && canTound)

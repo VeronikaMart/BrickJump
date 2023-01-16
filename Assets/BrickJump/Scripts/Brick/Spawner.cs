@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace StackJump.Brick
+namespace BrickJump.Brick
 {
     public class Spawner : MonoBehaviour
     {

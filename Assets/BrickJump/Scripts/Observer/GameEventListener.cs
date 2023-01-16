@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace StackJump.Observer
+namespace BrickJump.Observer
 {
     public class GameEventListener : MonoBehaviour
     {

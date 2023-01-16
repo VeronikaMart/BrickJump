@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace StackJump.Misc
+namespace BrickJump.Misc
 {
     public class DestroyObject : MonoBehaviour
     {

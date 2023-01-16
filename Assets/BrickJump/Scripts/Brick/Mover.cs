@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace StackJump.Brick
+namespace BrickJump.Brick
 {
     public class Mover : MonoBehaviour
     {
